@@ -22,7 +22,7 @@ public class BogoSorter extends Sorter {
 	void sort(int[] array, SortingVisualizer display) {
 		Random random = new Random();
 		for(int y = 0; y < array.length-1; y++) {
-		for (int i = 0; i < array.length - 1; i++) {
+		for (int i = 0; i < array.length-1; i++) {
 		    if (array[i] > array[i+1]) {
 		    	
 		        int temp = random.nextInt(array.length);
@@ -30,8 +30,10 @@ public class BogoSorter extends Sorter {
 		        int temp3 = array[temp]; 
 		        array[temp] = array[temp2];
 		        array[temp2] = temp3; 
-		       display.updateDisplay();
+		        display.updateDisplay();
+		        
 		    }
+		   
 		}
 		}
 		
