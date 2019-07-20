@@ -25,6 +25,7 @@ class _04_SearchTest {
 		assertEquals(1,1);
 		assertEquals(2,2);
 		assertEquals(3,3);
+		assertEquals(10,10);
 		
 	}
 	
